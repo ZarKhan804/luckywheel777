@@ -1,47 +1,52 @@
-
 function Hero() {
   return (
     <section className="border-b border-gray-300 bg-gray-200">
-      <div className="mx-auto max-w-7xl px-5 py-16 sm:px-8 lg:px-12">
-        <div className="mx-auto max-w-4xl text-center">
+      <div className="mx-auto max-w-7xl px-5 py-20 sm:px-8 lg:px-12">
+        <div className="mx-auto max-w-5xl text-center">
 
-          <p className="text-sm font-bold uppercase tracking-[0.3em] text-yellow-600">
-            Contact Us
-          </p>
+          <div className="mx-auto w-fit rounded-lg bg-yellow-50 px-5 py-2">
+            <p className="text-xs font-extrabold uppercase tracking-[0.3em] text-yellow-700">
+              Contact Pak75
+            </p>
+          </div>
 
-          <h1 className="mt-4 text-4xl font-black tracking-tight text-slate-900 sm:text-5xl md:text-6xl">
-            We’d Love to <span className="text-yellow-500">Hear From You</span>
+          <h1 className="mt-5 text-4xl font-black tracking-tight text-slate-900 sm:text-5xl md:text-6xl">
+            Get in <span className="text-yellow-500">Touch With Us</span>
           </h1>
 
           <p className="mx-auto mt-6 max-w-2xl text-base leading-8 text-slate-600 sm:text-lg">
-            Have a question, suggestion, or need more information about
-            Luckywheel777? Get in touch with us and let us know how we can
-            help.
+            Have a question, suggestion, or want to learn more about Pak75?
+            Feel free to get in touch with us for general information,
+            website feedback, or questions related to the platform.
           </p>
 
-          <div className="mx-auto mt-8 h-px w-20 bg-yellow-500" />
+          <div className="mx-auto mt-8 flex items-center justify-center gap-2">
+            <span className="h-1 w-8 rounded-full bg-yellow-300" />
+            <span className="h-1 w-14 rounded-full bg-yellow-500" />
+            <span className="h-1 w-8 rounded-full bg-yellow-300" />
+          </div>
 
-          <div className="mx-auto mt-8 max-w-3xl text-sm leading-7 text-slate-500">
+          <div className="mx-auto mt-8 max-w-3xl rounded-2xl border border-gray-300 bg-white p-6 text-sm leading-7 text-slate-500 shadow-sm sm:p-8">
             <p>
-              Luckywheel777 values communication with its visitors. Whether
-              you want to learn more about our website, share feedback,
-              discuss available content, or ask a general question, our
-              contact section is here to make communication simple and
-              straightforward.
+              Pak75 welcomes communication from visitors who would like to
+              learn more about the website, share useful feedback, or ask a
+              general question. Our contact section is designed to keep
+              communication simple and provide an easy way to discuss
+              information related to the Pak75 platform.
             </p>
           </div>
 
           <div className="mt-9 flex flex-wrap justify-center gap-3">
-            <span className="rounded-full border border-gray-300 bg-white px-5 py-2.5 text-sm font-semibold text-slate-600 shadow-sm">
+            <span className="rounded-lg border border-gray-300 bg-white px-5 py-3 text-sm font-semibold text-slate-600 shadow-sm">
               General Questions
             </span>
 
-            <span className="rounded-full border border-gray-300 bg-white px-5 py-2.5 text-sm font-semibold text-slate-600 shadow-sm">
+            <span className="rounded-lg border border-gray-300 bg-white px-5 py-3 text-sm font-semibold text-slate-600 shadow-sm">
               Feedback & Suggestions
             </span>
 
-            <span className="rounded-full border border-gray-300 bg-white px-5 py-2.5 text-sm font-semibold text-slate-600 shadow-sm">
-              Website Support
+            <span className="rounded-lg border border-gray-300 bg-white px-5 py-3 text-sm font-semibold text-slate-600 shadow-sm">
+              Pak75 Information
             </span>
           </div>
 
@@ -52,4 +57,3 @@ function Hero() {
 }
 
 export default Hero;
-

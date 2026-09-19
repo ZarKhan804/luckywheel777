@@ -3,7 +3,7 @@ import { Menu, X, Download } from "lucide-react";
 import { useState } from "react";
 
 const gameImage =
-  "https://www.demoslot.com/wp-content/uploads/lucky-wheel-slot-1.webp";
+  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuMzI9dGy6eWL0NdgDf_ZGxjlahsURNb8L-9OmVD-S6Q&s=10";
 
 const downloadUrl =
   "https://www.pakarcadeapp.com?code=MJ0D28WXAMD&t=1789636252";
@@ -42,7 +42,7 @@ function Header() {
 
           <div className="min-w-0">
             <h1 className="whitespace-nowrap text-[20px] font-black leading-tight tracking-tight text-white sm:text-[24px]">
-              Lucky<span className="text-yellow-400">wheel777</span>
+              PAK<span className="text-yellow-400">75 GAME</span>
             </h1>
 
             <p className="mt-1 whitespace-nowrap text-[9px] font-bold uppercase tracking-[0.18em] text-gray-400 sm:text-[10px]">

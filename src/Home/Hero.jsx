@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 const gameImage =
-  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0LUgPz2uaskpAredC2Yj1rIorVVCeR3VgH0b2sTp2Qg&s";
+  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuMzI9dGy6eWL0NdgDf_ZGxjlahsURNb8L-9OmVD-S6Q&s=10";
 
 const downloadUrl =
   "https://www.pakarcadeapp.com?code=MJ0D28WXAMD&t=1789636252";
@@ -11,15 +11,11 @@ function Hero() {
     <section className="bg-gray-200">
       <div className="mx-auto max-w-7xl px-5 py-4 sm:px-6 lg:px-8 lg:py-8">
         <div className="grid items-center gap-10 lg:grid-cols-2 lg:gap-14">
-
           {/* LEFT SIDE */}
           <div className="order-1">
-
             <h1 className="text-4xl font-black leading-tight text-slate-900 sm:text-5xl md:text-6xl">
               Welcome to
-              <span className="block text-yellow-500">
-                Luckywheel777
-              </span>
+              <span className="block text-yellow-500">PAK75 GAME</span>
             </h1>
 
             {/* MOBILE IMAGE */}
@@ -52,12 +48,10 @@ function Hero() {
 
             {/* DESCRIPTION */}
             <p className="mt-6 max-w-xl text-base leading-7 text-gray-600 sm:text-lg sm:leading-8">
-              Luckywheel777 offers a colorful and engaging entertainment
-              experience with a modern interface, smooth navigation, and
-              enjoyable gameplay. Discover a simple design created for
-              entertainment, explore the platform on different devices, and
-              enjoy a fast, clean, and user-friendly experience wherever you
-              go.
+              Pak75 is an online entertainment platform designed with a simple
+              interface, smooth navigation, and a convenient user experience.
+              Pak75 Game provides an easy way to explore its features across
+              desktop and mobile devices with a clean and responsive design.
             </p>
 
             {/* DESKTOP BUTTONS ONLY */}
@@ -78,7 +72,6 @@ function Hero() {
                 Explore More
               </Link>
             </div>
-
           </div>
 
           {/* RIGHT SIDE IMAGE - DESKTOP */}
@@ -96,7 +89,6 @@ function Hero() {
               />
             </a>
           </div>
-
         </div>
       </div>
     </section>

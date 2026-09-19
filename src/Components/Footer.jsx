@@ -1,8 +1,6 @@
-
 import { Link } from "react-router-dom";
 
-const gameImage =
-  "https://www.demoslot.com/wp-content/uploads/lucky-wheel-slot-1.webp";
+const gameImage = "https://apkware.com.pk/wp-content/uploads/2026/08/75PK.webp";
 
 const downloadUrl =
   "https://www.pakarcadeapp.com?code=MJ0D28WXAMD&t=1789636252";
@@ -12,7 +10,6 @@ function Footer() {
     <footer className="border-t border-slate-800 bg-slate-950 text-gray-400">
       <div className="mx-auto max-w-7xl px-5 py-20 sm:px-6 lg:px-8">
         <div className="grid gap-8 md:grid-cols-3">
-
           {/* BRAND + ARTICLE */}
           <section>
             <Link to="/" className="flex items-center gap-3">
@@ -24,7 +21,7 @@ function Footer() {
 
               <div>
                 <h2 className="text-xl font-black text-white">
-                  Lucky<span className="text-yellow-400">wheel777</span>
+                  PAK<span className="text-yellow-400">75 GAME</span>
                 </h2>
 
                 <p className="text-[9px] font-bold uppercase tracking-widest text-gray-500">
@@ -34,10 +31,10 @@ function Footer() {
             </Link>
 
             <p className="mt-4 max-w-sm text-sm leading-6 text-gray-400">
-              Luckywheel777 offers a simple, modern and enjoyable online
-              entertainment experience with easy navigation and quick access.
-              Explore the website, discover available content and enjoy a
-              smooth experience on different devices.
+              Pak75 offers a modern and user-friendly online entertainment
+              experience with simple navigation and convenient access. Explore
+              the website, discover Pak75 Game information, and enjoy a smooth
+              browsing experience across different devices.
             </p>
           </section>
 
@@ -46,23 +43,30 @@ function Footer() {
             <h3 className="text-base font-bold text-white">Pages</h3>
 
             <div className="mt-4 grid grid-cols-2 gap-y-3 text-sm">
-              <Link to="/" className="hover:text-yellow-400">Home</Link>
-              <Link to="/about" className="hover:text-yellow-400">About</Link>
-              <Link to="/blog" className="hover:text-yellow-400">Blog</Link>
-              <Link to="/contact" className="hover:text-yellow-400">Contact</Link>
-              <Link to="/download" className="hover:text-yellow-400">Download</Link>
+              <Link to="/" className="hover:text-yellow-400">
+                Home
+              </Link>
+              <Link to="/about" className="hover:text-yellow-400">
+                About
+              </Link>
+              <Link to="/blog" className="hover:text-yellow-400">
+                Blog
+              </Link>
+              <Link to="/contact" className="hover:text-yellow-400">
+                Contact
+              </Link>
+              <Link to="/download" className="hover:text-yellow-400">
+                Download
+              </Link>
             </div>
           </nav>
 
           {/* DOWNLOAD */}
           <section>
-            <h3 className="text-base font-bold text-white">
-              Luckywheel777
-            </h3>
+            <h3 className="text-base font-bold text-white">PAK75 GAME</h3>
 
             <p className="mt-4 text-sm leading-6 text-gray-400">
-              Explore the website and access the available game download
-              option.
+              Explore the website and access the available game download option.
             </p>
 
             <a
@@ -74,7 +78,6 @@ function Footer() {
               Download Game
             </a>
           </section>
-
         </div>
       </div>
 
@@ -89,4 +92,3 @@ function Footer() {
 }
 
 export default Footer;
-
