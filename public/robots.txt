@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://paks75.com/sitemap.xml
+Sitemap: https://www.paks75.com/sitemap.xml

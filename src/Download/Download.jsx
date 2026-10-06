@@ -1,20 +1,19 @@
 
 import { Helmet } from "react-helmet-async";
 
-import ContactHero from "./ContactHero";
-import ContactForm from "./ContactForm";
+import DownloadHero from "./DownloadHero";
 import InternalLinksArticle from "./InternalLinksArticle";
 import Article from "./Article";
 
-function Contact() {
+function Download() {
   return (
     <>
       <Helmet>
-        <title>Contact Pak75 | Support & Assistance</title>
+        <title>Pak75 Download Guide | Mobile Access Information</title>
 
         <meta
           name="description"
-          content="Contact Pak75 for general questions, feedback, website information, account guidance, and assistance with gaming-related queries."
+          content="Explore the Pak75 download and mobile access guide, compatible device information, application safety, account guidance, and general gaming resources."
         />
 
         <meta
@@ -24,22 +23,22 @@ function Contact() {
 
         <link
           rel="canonical"
-          href="https://www.paks75.com/contact"
+          href="https://www.paks75.com/download"
         />
 
         <meta
           property="og:title"
-          content="Contact Pak75 | Support & Assistance"
+          content="Pak75 Download Guide | Mobile Access Information"
         />
 
         <meta
           property="og:description"
-          content="Find Pak75 contact information, website guidance, account security tips, and answers to general gaming-related questions."
+          content="Learn about Pak75 mobile access, application information, device compatibility, account guidance, and general gaming resources."
         />
 
         <meta
           property="og:url"
-          content="https://www.paks75.com/contact"
+          content="https://www.paks75.com/download"
         />
 
         <meta
@@ -59,12 +58,12 @@ function Contact() {
 
         <meta
           name="twitter:title"
-          content="Contact Pak75 | Support & Assistance"
+          content="Pak75 Download Guide | Mobile Access Information"
         />
 
         <meta
           name="twitter:description"
-          content="Find Pak75 contact information, website guidance, account security tips, and answers to general gaming-related questions."
+          content="Learn about Pak75 mobile access, application information, device compatibility, account guidance, and general gaming resources."
         />
 
         <meta
@@ -74,8 +73,7 @@ function Contact() {
       </Helmet>
 
       <main id="main-content">
-        <ContactHero />
-        <ContactForm />
+        <DownloadHero />
         <InternalLinksArticle />
         <Article />
       </main>
@@ -83,4 +81,4 @@ function Contact() {
   );
 }
 
-export default Contact;
+export default Download;
