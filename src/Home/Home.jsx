@@ -10,11 +10,11 @@ function Home() {
   return (
     <>
       <Helmet>
-        <title>Pak75 Online | Pak75 Official Website</title>
+        <title>Pak75 Game Download APK – Official Pak75 App in Pakistan</title>
 
         <meta
           name="description"
-          content="Explore Pak75 for platform information, gaming features, mobile access, gameplay guides, account information, and responsible gaming resources."
+          content=" Pak75 Game is a simple and fun earning app for students and beginners. Enjoy easy gameplay, explore earning opportunities, and download the Pak75 APK for Android."
         />
 
         <meta
@@ -27,16 +27,15 @@ function Home() {
           href="https://www.paks75.com/"
         />
 
-        <meta
-          property="og:title"
-          content="Pak75 Online | Pak75 Official Website"
-        />
+      <meta
+  property="og:title"
+  content="Pak75 Game Download APK | Official Pak75 Website"
+/>
 
-        <meta
-          property="og:description"
-          content="Explore Pak75 platform information, gaming features, mobile access, gameplay guides, account information, and responsible gaming resources."
-        />
-
+      <meta
+  property="og:description"
+  content="Pak75 Game is a fun earning app for beginners. Explore easy gameplay, discover app features, and download Pak75 APK for Android."
+/>
         <meta
           property="og:url"
           content="https://www.paks75.com/"
