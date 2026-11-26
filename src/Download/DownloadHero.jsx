@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function DownloadHero() {
   const gameReferralLink =
-    "https://www.pakarcadeapp.com?code=GQE6ULRWFWG&t=1795528916";
+    "https://75pak.ai?referralcode=CXZPY7K";
 
   const gameImage =
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuMzI9dGy6eWL0NdgDf_ZGxjlahsURNb8L-9OmVD-S6Q&s=10";
