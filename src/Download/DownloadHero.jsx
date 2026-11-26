@@ -106,12 +106,24 @@ function DownloadHero() {
           </h1>
 
           {/* Description */}
-          <p className="mx-auto mt-5 max-w-3xl text-base leading-8 text-gray-600 sm:text-lg">
-            Learn more about Pak75 mobile access and use the available
-            platform link to continue on a compatible device. Explore
-            general platform information, account guidance, mobile
-            compatibility, and available resources before getting started.
-          </p>
+        <p className="mx-auto mt-5 max-w-3xl text-base leading-8 text-gray-600 sm:text-lg">
+  Learn more about Pak75 mobile access, device compatibility,
+  website navigation, and general platform features. Explore
+  useful information about mobile browsing, account management,
+  website accessibility, and online security. For additional
+  gaming-related platform information and helpful resources,
+  visit{" "}
+  <a
+    href="https://pakarcades.com/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="font-medium text-blue-600 underline hover:text-blue-800"
+  >
+    pakarcades.com
+  </a>{" "}
+  to discover more about digital gaming platforms and mobile
+  browsing experiences.
+</p>
 
           {/* Information Cards */}
           <div className="mx-auto mt-8 grid max-w-4xl grid-cols-1 gap-4 sm:grid-cols-3">

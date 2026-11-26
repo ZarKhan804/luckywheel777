@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 
 function HeroSection() {
@@ -37,7 +36,6 @@ function HeroSection() {
 
       {/* MAIN CONTENT */}
       <div className="relative z-10 mx-auto w-full max-w-7xl px-4 py-6 sm:px-6 lg:px-8 lg:py-10">
-
         {/* GAME IMAGE */}
         <div className="relative mx-auto mb-5 w-full max-w-5xl">
           <div
@@ -70,7 +68,6 @@ function HeroSection() {
 
           {/* BUTTONS UNDER IMAGE */}
           <div className="relative z-20 mt-5 flex flex-col justify-center gap-3 sm:flex-row sm:gap-4">
-
             {/* ACCESS BUTTON */}
             <a
               href={gameReferralLink}
@@ -94,7 +91,6 @@ function HeroSection() {
 
         {/* HOME INFORMATION */}
         <div className="mx-auto max-w-5xl text-center">
-
           {/* LABEL */}
           <p className="mb-4 inline-flex rounded-full border border-yellow-500/30 bg-white/70 px-4 py-2 text-xs font-bold uppercase tracking-[0.16em] text-yellow-700 shadow-sm backdrop-blur-sm">
             Pak75 Information & Guide
@@ -113,16 +109,26 @@ function HeroSection() {
 
           {/* DESCRIPTION */}
           <p className="mx-auto mt-5 max-w-3xl text-base leading-8 text-gray-600 sm:text-lg">
-            Explore Pak75 platform information, game features, gameplay
-            basics, mobile access, account guidance, and online gaming
-            safety. Learn about platform navigation, account security,
-            and important considerations before participating in online
-            games.
+            Explore Pak75 platform information, gaming features, gameplay
+            guides, mobile accessibility, and account management tips. Discover
+            useful resources about online gaming navigation, website usability,
+            account security, and responsible digital entertainment. You can
+            also explore gaming-related resources and information available
+            through{" "}
+            <a
+              href="https://pakarcades.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-medium text-blue-600 underline hover:text-blue-800"
+            >
+              pakarcades.com
+            </a>{" "}
+            to learn more about online gaming platforms, mobile gaming
+            experiences, and important safety considerations.
           </p>
 
           {/* INFORMATION CARDS */}
           <div className="mx-auto mt-8 grid max-w-4xl grid-cols-1 gap-4 sm:grid-cols-3">
-
             {/* CARD 1 */}
             <article className="rounded-2xl border border-gray-300/70 bg-white/70 p-5 text-left shadow-sm backdrop-blur-sm">
               <h2 className="text-sm font-extrabold text-gray-900">
@@ -142,8 +148,8 @@ function HeroSection() {
               </h2>
 
               <p className="mt-2 text-xs leading-6 text-gray-500">
-                Learn about Pak75 mobile compatibility, browser access,
-                and safe application installation practices.
+                Learn about Pak75 mobile compatibility, browser access, and safe
+                application installation practices.
               </p>
             </article>
 
@@ -154,8 +160,8 @@ function HeroSection() {
               </h2>
 
               <p className="mt-2 text-xs leading-6 text-gray-500">
-                Understand Pak75 account security, platform terms,
-                financial risks, and responsible gaming practices.
+                Understand Pak75 account security, platform terms, financial
+                risks, and responsible gaming practices.
               </p>
             </article>
           </div>
@@ -164,13 +170,11 @@ function HeroSection() {
         {/* SUPPORTING CONTENT */}
         <div className="mt-10">
           <div className="mx-auto max-w-5xl rounded-2xl border border-gray-300 bg-white/60 p-6 text-center shadow-sm backdrop-blur-sm sm:p-8">
-
             <h2 className="text-2xl font-extrabold text-gray-900 sm:text-3xl">
               Pak75 Information and Guides
             </h2>
 
             <div className="mt-6 grid gap-3 text-left sm:grid-cols-2">
-
               {/* LEFT SIDE */}
               <div className="space-y-3 text-sm leading-6 text-gray-700">
                 <p>1. Pak75 Platform Guide 2026</p>
