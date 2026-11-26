@@ -6,9 +6,48 @@ import {
   FaTrophy,
   FaWallet,
   FaMobileAlt,
+  FaLayerGroup,
+  FaBolt,
+  FaHdd,
+  FaClipboard,
+  FaMicrochip,
+  FaStar,
 } from "react-icons/fa";
 
 function GameSection() {
+  const gameInfo = [
+    {
+      icon: <FaLayerGroup />,
+      title: "Name",
+      value: "75Pak Game",
+    },
+    {
+      icon: <FaBolt />,
+      title: "Version",
+      value: "V3.0",
+    },
+    {
+      icon: <FaHdd />,
+      title: "Size",
+      value: "8 MB",
+    },
+    {
+      icon: <FaClipboard />,
+      title: "Category",
+      value: "Mobile Gaming",
+    },
+    {
+      icon: <FaMicrochip />,
+      title: "Developer",
+      value: "75Pak Team",
+    },
+    {
+      icon: <FaStar />,
+      title: "Listed Rating",
+      value: "1999+",
+    },
+  ];
+
   const features = [
     {
       icon: <FaUserPlus />,
@@ -47,7 +86,7 @@ function GameSection() {
       aria-labelledby="pak75-features-title"
       className="relative overflow-hidden bg-gray-200 py-16 sm:py-20 lg:py-8"
     >
-      {/* Background Glow */}
+      {/* BACKGROUND GLOW */}
       <div
         aria-hidden="true"
         className="pointer-events-none absolute left-[-120px] top-20 h-80 w-80 rounded-full bg-yellow-400/10 blur-[120px]"
@@ -64,8 +103,75 @@ function GameSection() {
       />
 
       <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        {/* Section Header */}
+
+        {/* ================================= */}
+        {/* TOP GAME INFORMATION CARDS */}
+        {/* ================================= */}
+
+        <div className="mb-14">
+
+          {/* TOP LABEL */}
+          <div className="mb-6 text-center">
+            <span className="inline-flex items-center rounded-full border border-yellow-500/30 bg-white/70 px-5 py-2 text-xs font-extrabold uppercase tracking-[0.18em] text-yellow-700 shadow-sm">
+              Platform Details
+            </span>
+
+            <h2 className="mt-4 text-2xl font-black text-gray-900 sm:text-3xl">
+              Pak75 Game Information
+              <span className="block mt-1 bg-gradient-to-r from-yellow-500 via-amber-500 to-yellow-600 bg-clip-text text-transparent">
+                Technical Overview
+              </span>
+            </h2>
+
+            <p className="mx-auto mt-3 max-w-2xl text-sm leading-7 text-gray-600 sm:text-base">
+              Review the available reference information about the
+              platform name, version, category, and other listed details.
+            </p>
+          </div>
+
+          {/* INFORMATION GRID */}
+          <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-6">
+
+            {gameInfo.map((item) => (
+              <article
+                key={item.title}
+                className="group flex min-h-[175px] flex-col items-center justify-center rounded-2xl border border-gray-300/70 bg-white/85 px-3 py-6 text-center shadow-sm backdrop-blur-sm transition duration-300 hover:-translate-y-1 hover:border-yellow-400 hover:shadow-lg sm:min-h-[190px] sm:px-4"
+              >
+
+                {/* ICON */}
+                <div className="mb-3 flex h-12 w-12 items-center justify-center rounded-xl bg-yellow-400/10 text-3xl text-yellow-500 transition duration-300 group-hover:scale-110 group-hover:bg-yellow-400/20">
+                  {item.icon}
+                </div>
+
+                {/* TITLE */}
+                <h3 className="text-lg font-extrabold text-gray-900 sm:text-xl">
+                  {item.title}
+                </h3>
+
+                {/* VALUE */}
+                <p className="mt-4 break-words text-sm font-medium text-gray-700 sm:text-base">
+                  {item.value}
+                </p>
+
+              </article>
+            ))}
+
+          </div>
+
+          {/* INFORMATION NOTE */}
+          <p className="mt-4 text-center text-xs leading-5 text-gray-500">
+            Listed specifications are based on the supplied reference
+            and should be verified with an official source.
+          </p>
+
+        </div>
+
+        {/* ================================= */}
+        {/* SECTION HEADER */}
+        {/* ================================= */}
+
         <header className="mx-auto max-w-3xl text-center">
+
           <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-yellow-500/30 bg-white/70 px-4 py-2 text-xs font-bold uppercase tracking-[0.18em] text-yellow-700 shadow-sm backdrop-blur-sm">
             <FaTrophy className="text-sm" />
             Pak75 Features
@@ -76,6 +182,7 @@ function GameSection() {
             className="text-3xl font-black tracking-tight text-gray-900 sm:text-4xl md:text-5xl"
           >
             Pak75 Features
+
             <span className="block bg-gradient-to-r from-yellow-500 via-amber-500 to-yellow-600 bg-clip-text text-transparent">
               Gameplay & Platform Information
             </span>
@@ -87,15 +194,21 @@ function GameSection() {
             gaming practices. Review the available information and understand
             potential risks before participating.
           </p>
+
         </header>
 
-        {/* Features */}
+        {/* ================================= */}
+        {/* FEATURES GRID */}
+        {/* ================================= */}
+
         <div className="mx-auto mt-12 grid max-w-6xl gap-5 sm:grid-cols-2 lg:grid-cols-3">
+
           {features.map((feature) => (
             <article
               key={feature.title}
               className="rounded-2xl border border-gray-300 bg-white p-6 shadow-sm transition duration-300 hover:-translate-y-1 hover:border-yellow-400 hover:shadow-lg"
             >
+
               <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-xl bg-yellow-400/15 text-xl text-yellow-600">
                 {feature.icon}
               </div>
@@ -107,13 +220,20 @@ function GameSection() {
               <p className="mt-3 text-sm leading-7 text-gray-600">
                 {feature.text}
               </p>
+
             </article>
           ))}
+
         </div>
 
-        {/* Main Article */}
+        {/* ================================= */}
+        {/* MAIN ARTICLE */}
+        {/* ================================= */}
+
         <article className="mx-auto mt-12 max-w-5xl rounded-3xl border border-gray-300 bg-white/70 p-6 shadow-lg backdrop-blur-sm sm:p-8 lg:p-10">
+
           <div className="space-y-7 text-sm leading-7 text-gray-600 sm:text-base">
+
             <div>
               <h3 className="text-xl font-bold text-gray-900 sm:text-2xl">
                 Pak75 Platform Overview
@@ -215,9 +335,13 @@ function GameSection() {
                 reliable way to earn income.
               </p>
             </div>
+
           </div>
+
         </article>
+
       </div>
+
     </section>
   );
 }
